@@ -35,6 +35,7 @@ in
       (
         config.stylix.enable
         && config.stylix.targets.swaylock.enable
+        && config.programs.swaylock.enable
         && pkgs.stdenv.hostPlatform.isLinux
       )
       {
